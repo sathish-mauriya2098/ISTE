@@ -1,0 +1,78 @@
+.modal{
+  display:none;
+  position: fixed;
+  z-index:1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width:100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+.modal-contents{
+  background-color:#f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+  font-size:17px;
+  line-height:1.6;
+  margin: 20% auto;
+  width:70%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name:modalopen;
+  animation-duration:1s;
+}
+.modal-bodys{
+  padding:10px 20px;
+}
+.closes,.closes1,.closes2,.closes3,.closes4,.closes5,.closes6,.closes7,.closes8,.closes9,.closes10,.closes11,.closes12{
+    background:#606061;
+    color: #FFFFFF;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px green;
+    border-radius: 12px;text-align:center;
+    width: 28px;line-height: 29px;
+    
+}
+.closes:hover,.closes:focus,.closes1:hover,.closes1:focus,.closes2:hover,.closes2:focus,.closes3:hover,.closes3:focus,.closes4:hover,.closes4:focus,.closes5:hover,.closes5:focus,.closes6:hover,.closes6:focus,.closes7:hover,.closes7:focus,.closes8:hover,.closes8:focus,.closes9:hover,.closes9:focus,.closes10:hover,.closes10:focus,.closes11:hover,.closes11:focus,.closes12:hover,.closes12:focus  {
+   background:red ;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal-headers{
+   background:coral;
+  padding:15px;
+  color:#fff;
+}
+h11{
+        font-size: 35px;
+        color: brown;
+     font-weight: bold;
+    } 
+h31{
+    font-size: 20px;
+    font-weight: bold;
+}
+ p11{
+        font-size: 30px;
+        font-weight: bold;
+     color: black;
+    }
+     p12{
+      font-size: 25px; color: black; 
+         font-family: serif;
+    }
+p01{
+    color: cyan;
+    font-size: 15px;
+}
+p01:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
+b{
+    color: black;
+    font-weight: bold;
+}

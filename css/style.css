@@ -1,0 +1,152 @@
+i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px black;
+  padding: 0.5em 0.6em;
+font-size: 55px;
+    color: gray;
+}
+            i.fa:hover{
+                background-color: aqua;
+            }
+            .fa{
+                font-size: 35px;
+            }
+            
+            .game{
+                background-color: #EEE8AA;
+                border-radius: 8px;
+            }
+            hr{
+               height: 1px;
+               color: #123455;
+               background-color: #123455;
+               border: none;
+            }
+#contact{
+    background-color:antiquewhite;
+}
+p0001{
+    font-size: 10px;
+}
+.clr3 {background: #3E4352; color: #BDC3CF;}
+.clr4 {background: #636A7D; color: #E3E7F2;}
+a {color: #BDC3CF; text-decoration: none;}
+a:hover {color: #ffffff; text-decoration: underline;}
+
+/*##### Footer Structure #####*/
+.bo-wrap {clear:both; width: auto;}
+.bo-footer {
+  clear:both;
+  width: auto;
+  padding: 5px;
+  width: 100%;
+	margin: 0 auto;
+}
+.bo-footer-smap {
+	width: 50%;
+	float: right;
+	padding: 5px 10px;
+  text-align: left;
+  font-size: 18px;
+}
+.bo-footer-uonline {
+	width: 300px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 10px;
+  text-align: center;
+}
+.bo-footer-power {
+	width: 300px;
+	padding: 5px 10px;
+	float: left;
+  text-align: right;
+  font-size: 14px;
+  color: #BDC3CF;
+  vertical-align: middle;
+}
+/*##### Footer Responsive #####*/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	.bo-footer {
+		width: 95%;
+		padding: 1% 2%;
+	}
+	.bo-footer-smap {
+		width: 46%;
+		padding: 1% 2%;
+	}
+	.bo-footer-uonline {
+		width: 46%;
+		padding: 1% 2%;
+		float: right;
+    text-align: right;
+	}
+	
+	.bo-footer-power {
+		clear: both;
+		padding: 1% 2%;
+		width: auto;
+		float: none;
+    text-align: center;
+	}
+}
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	.bo-footer-smap {
+		width: auto; 
+		float: none;
+    text-align: center;
+	}
+	
+	.bo-footer-uonline {
+		width: auto;
+		float: none;
+    text-align: center;
+	}
+	
+	.bo-footer-power {
+		width: auto;
+		float: none;
+    text-align: center;
+	}
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+  
+}
+             input[type=button]{
+            padding: 15px 30px;
+            border-radius: 4px;
+            background-color: #10EE12;
+            border: none;
+            font-size: 15px;
+            color: white;
+           }
+        #register{
+            background-color: gainsboro;
+            }
+        #register p{
+            color: black;
+            font-size: 20px;
+        }
+        #register h3{
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+           
+         .top-left {
+    position: absolute;
+  top: 0px;
+    background-color: #353332;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
